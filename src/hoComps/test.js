@@ -1,1 +1,3 @@
-console.log('hello');
+const aux =(props) => props.children;
+
+export default aux;
