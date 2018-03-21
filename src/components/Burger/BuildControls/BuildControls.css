@@ -37,7 +37,9 @@
 .OrderButton:not(:disabled) {
     animation: enable 0.3s linear;
 }
-
+.Price {
+    margin: 0;
+}
 @keyframes enable {
     0% {
         transform: scale(1);
