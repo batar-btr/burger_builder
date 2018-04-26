@@ -123,7 +123,7 @@ class Auth extends Component {
 
         return (
             <div className={classes.Auth}>
-                <h3>{this.state.isSignup ? 'SIGNIN' : 'SIGNUP'}</h3>
+                <h3>{!this.state.isSignup ? 'SIGNIN' : 'SIGNUP'}</h3>
                 {errorMessage}
                 <form onSubmit={this.submitHandler}>
                     {form}
